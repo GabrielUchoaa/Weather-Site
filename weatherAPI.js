@@ -51,7 +51,7 @@ if(data.weather[0].main === "Clear"){
 })
 .catch(()=> {
     cityname.innerHTML = "Local não encontrado"   
-    clima.src = "file:///C:/Users/Nonato/Downloads/erro%20de%20requisi%C3%A7%C3%A3o.avif"
+    clima.src = "img/weather-error.png"
     temp.innerHTML = ``
     flag.src = ""
     description.innerHTML = ""
