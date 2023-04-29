@@ -25,26 +25,26 @@ description.innerHTML = data.weather[0].description
 
 if(data.clouds.all >= 70){
 setTimeout(()=>{clima.classList.remove('nada')},500)
-clima.src = "Imagens/nublado.png"
+clima.src = "img/nublado.png"
 }
 
 if(data.clouds.all <= 70 && data.weather[0].main !== "Clear"){
     setTimeout(()=>{clima.classList.remove('nada')},500)
-    clima.src = "Img/Partially.png"
+    clima.src = "img/Partially.png"
     }
 
 if(data.weather[0].main === "Rain" /*|| data.weather[0].description === "overcast clouds"*/){
     
     setTimeout(()=>{
         clima.classList.remove('nada')
-        clima.src = "Img/Rain.png"
+        clima.src = "img/Rain.png"
 },500)}
 
 if(data.weather[0].main === "Clear"){
     
     setTimeout(()=>{
         clima.classList.remove('nada')
-        clima.src = "Img/ensolarado.png"
+        clima.src = "img/ensolarado.png"
 },500)}
 
 
