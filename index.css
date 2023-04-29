@@ -1,0 +1,129 @@
+*{
+    height:100%
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(0deg, rgb(138, 199, 238), rgb(32, 140, 241) 100%) no-repeat;
+    margin: 0;
+}
+
+/* PESQUISA */
+
+.to-search{
+    width:350px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-top: 25px;
+    border-radius: 50px;
+    transition:all 0.4s;
+}
+.clima{
+    width:260px;
+    height: 260px;
+    position: absolute;
+    border-radius: 50px;
+    margin-top:370px;
+}
+.nada {display: none}
+.search-icon {
+    background-color: rgb(51, 131, 235);
+    width:40px;
+    height:40px;
+    margin-top: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+
+    
+}
+
+.search-icon:hover{
+    background-color:rgb(17, 89, 184); ;
+}
+
+.search-icon img{
+width: 17px;
+height:17px;
+}
+
+.city-here {
+    margin-top: 30px;
+    width: 250px;
+    height:300px;
+    background-color: brown;
+}
+
+.pesquisa {
+    width: 250px;
+    height: 25px;
+    border: 2px solid rgb(44, 121, 223);
+    border-radius: 15px;
+    display: inline-block;
+    
+    
+}
+
+/* Main */
+
+Main{
+    margin-top: 150px;
+    width: 350px;
+    height: 400px;
+    
+    
+    
+}
+
+
+/* temperature */
+.temperature{
+    background-color: transparent;
+    width:350px;
+    height: 30px;
+    margin-top: 420px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position:absolute;
+}
+
+/* city name */
+.city-name{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    height: 25px;
+    margin-top:90px;
+    background-color: transparent;
+}
+
+
+/* FLAG */
+.flag{
+    margin-top: -3px;
+    margin-left: 3px;
+}
+
+
+.description {
+    width: 350px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 375px;
+    position: absolute;
+    font-weight: bold;
+    color: blue;
+    
+    
+}
